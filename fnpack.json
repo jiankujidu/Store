@@ -493,6 +493,39 @@
           }
         }
       }
+    },
+    "vodcms": {
+      "display_name": "影视中心",
+      "desc": "飞牛 NAS 影视中心：提供影视 CMS 后端与安卓客户端开放接口，含后台管理、APK 下载页，支持分类/影片/剧集/多线路播放源管理，可对接苹果CMS 协议片源。",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "vodcms/ICON_256.PNG",
+      "preview_urls": [],
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "maintainer": "一起瞎折腾",
+      "maintainer_url": "https://github.com/jiankujidu/MyFnDepot",
+      "distributor": "一起瞎折腾",
+      "distributor_url": "https://github.com/jiankujidu/MyFnDepot",
+      "bug_report_url": "https://github.com/jiankujidu/MyFnDepot/issues",
+      "releases": {
+        "1.0.0": {
+          "changelog": "v1.0.0 首发：影视 CMS 后端打包为飞牛原生应用，含后台管理、APK 下载页、分类/影片/剧集管理，支持苹果CMS 协议对接片源。",
+          "updated_at": "2026-10-10T19:46:37+08:00",
+          "packages": {
+            "all": {
+              "download_url": "vodcms/vodcms.fpk",
+              "sha256": "5994b79a112a82615a7f62e2e42eade5b47a7d1f44bc39125d7272151498e03c",
+              "size": 689416
+            }
+          }
+        }
+      }
     }
   }
 }
