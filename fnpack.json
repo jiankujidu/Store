@@ -509,19 +509,19 @@
       "install_type": "",
       "is_docker": false,
       "maintainer": "一起瞎折腾",
-      "maintainer_url": "https://github.com/jiankujidu/MyFnDepot",
+      "maintainer_url": "https://github.com/jiankujidu/Store",
       "distributor": "一起瞎折腾",
-      "distributor_url": "https://github.com/jiankujidu/MyFnDepot",
-      "bug_report_url": "https://github.com/jiankujidu/MyFnDepot/issues",
+      "distributor_url": "https://github.com/jiankujidu/Store",
+      "bug_report_url": "https://github.com/jiankujidu/Store/issues",
       "releases": {
-        "1.0.1": {
-          "changelog": "v1.0.1 修复启动失败：增强 cmd/main 对 nodejs_v24 的检测与错误日志，启动脚本更健壮，避免 Bad Gateway。",
-          "updated_at": "2026-10-10T20:11:06+08:00",
+        "1.0.2": {
+          "changelog": "v1.0.2 提升健壮性：补齐 wizard/install（确保 fnOS 正确下发端口）；cmd/main 优先使用 --experimental-sqlite 标志以兼容更多 nodejs_v24 构建；DB 初始化与引导失败时不再静默退出，改为记录日志并保证 HTTP 端口先监听，将 Bad Gateway 转为可诊断的错误页。",
+          "updated_at": "2026-10-10T20:40:29+08:00",
           "packages": {
             "all": {
               "download_url": "vodcms/vodcms.fpk",
-              "sha256": "7a4c53c32881c7614cc9b2ccf3dc2bb53969a0c2c807b7840d6e5aa49dca6a3b",
-              "size": 689612
+              "sha256": "8758e9fbc7ad8c9dd48626ec033e651eb90b9f8e643a237cd455a4ed46201957",
+              "size": 690404
             }
           }
         }
