@@ -304,6 +304,17 @@
               "size": 20130538
             }
           }
+        },
+        "1.4.0": {
+          "changelog": "v1.4.0 面板 UI 逐组件对齐 sun-panel 原版（重要升级）\n- 默认图标样式改为「详情卡片(info)」：图标左+标题右的 200px 横卡（minmax(200px) 网格），与原版默认观感一致；仍可在设置中切回宫格样式\n- 时钟默认不显示秒（对齐原版）\n- 内容上边距默认 5%（原版观感）\n- 新增磁盘监控卡：系统监控区补齐 / 等挂载点磁盘用量（used/free 格式、5px 细进度条），与原版一致\n- 系统监控卡片重写：CPU / 内存 / 运行时长 / 磁盘 横卡样式，白色细进度条，对齐原版 GenericMonitorCard\n- 默认分组示例调整为 APP\n- 老用户升级一次性迁移：自动套用上述默认观感（仅对从未自定义过相关设置的用户生效）\n- 应用 id / 数据目录不变，升级保留数据",
+          "updated_at": "2026-10-14",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/jiankujidu/Store/releases/download/freepanel-v1.4.0/freepanel.fpk",
+              "sha256": "606f200c2a617d3cd61713cc4721dd126fd6ce284a15a3966708c5a833bf6e98",
+              "size": 20223139
+            }
+          }
         }
       }
     },
