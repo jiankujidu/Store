@@ -315,6 +315,17 @@
               "size": 20223139
             }
           }
+        },
+        "1.4.1": {
+          "changelog": "v1.4.1 居中修复（重要）：修复面板整体偏左——v1.4.0 起 marginX 内联样式覆盖了容器的 margin:auto 居中，导致标题/搜索框/卡片全部靠左；现对齐 sun-panel 原版布局语义：外层容器始终水平居中，marginX 仅作用于内层内容边距",
+          "updated_at": "2026-10-14",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/jiankujidu/Store/releases/download/freepanel-v1.4.1/freepanel.fpk",
+              "sha256": "422153e0068a3b32d8406a2686defb8818fbb429282319f68c966be73a720ce0",
+              "size": 20223210
+            }
+          }
         }
       }
     },
